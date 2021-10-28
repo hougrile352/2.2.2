@@ -7,9 +7,9 @@ using namespace std;
 
 string markChecker(int mark)
 {
-    if (mark>=50)
+    if (mark>=50) //Check the mark
     {
-        return "Passed";
+        return "Passed"; //Return pass/fail
     }
     else
     {
@@ -21,7 +21,7 @@ int main()
 {
     int number;
 
-    cout << "Enter number:\n";
+    cout << "Enter number:\n"; //Get number
     cin >> number;
 
     cout << markChecker(number);
